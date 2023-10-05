@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="x-icon" href="C:\Users\lenovo\Desktop\HTML\Pictures\twt.png" width="30" height="30">
+	<title> Esplanade </title>
+<style>
+	header
+	{
+		background: linear-gradient(180deg,grey, lightgrey);
+		padding:2px;
+	}
+	nav
+	{
+		text-align:center;
+		background-color: lightgrey;
+		font-size:20px;
+	}
+	
+	nav a
+	{
+		color:red;
+		text-decoration:none;
+		padding:10px 15px;
+		display:inline-block;
+		font-family:Areal;
+	}
+	
+	nav a:hover
+	{
+		color:white;
+		background-color: #ADD8E6;
+	}
+	
+	ul
+	{
+		list-style:none;
+	}
+	
+	ul li
+	{
+		display:inline-block;
+		position:relative;
+	}
+	ul li a
+	{
+		display:block;
+		padding:20px 25px;
+		color:#FFF;
+		text-decoration:none;
+		text-align:center;
+		font-size:20px
+	}
+	
+	ul li ul.dropdown li
+	{
+		display:block;
+	}
+	
+	ul li ul.dropdown
+	{
+		width:100%;
+		background:#22438C;
+		position:absolute;
+		z-index:999;
+		display:none;
+	}
+	
+	ul li a:hover
+	{
+		background:#112C66;
+	}
+	
+	ul li:hover ul.dropdown
+	{
+		display:block;
+	}
+	
+</style>
+</head>
+
+<body background="C:\Users\lenovo\Desktop\HTML\Pictures\peakpx.jpg">
+<header>
+
+<a href="https://www.makemytrip.com/" target="blank"><center><img src="C:\Users\lenovo\Desktop\HTML\Pictures\logo1.png" width="60" height= "60"></center></a>
+<h1 style="color:#008B8B; font-size:30px; font-family:Areal;"><center>Esplanade</center></h1>
+<hr>
+<marquee><font size="4" color="003399">One's destination is never a place but rather a new way of looking at things</font></marquee>
+<hr>
+
+</header>
+
+	<nav>
+	<ul>
+	
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">International Tourism</a>
+		<ul class="dropdown">
+			<li><a href="#">Asia</a></li>
+			<li><a href="#">Africa</a></li>
+			<li><a href="#">Europe</a></li>
+			<li><a href="#">North America</a></li>
+			<li><a href="#">South America</a></li>
+			<li><a href="#">Australia</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Packages</a></li>
+	<li><a href="#">Careers</a></li>
+	<li><a href="#">Contact</a></li>
+	
+	</ul>
+	</nav>
+
+</body>
+</html>
