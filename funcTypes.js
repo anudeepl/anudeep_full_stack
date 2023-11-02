@@ -206,5 +206,6 @@ var cS31 = new consSample3('Anudeep', 25);
 var cS32 = new consSample3('Lakkoju', 27);
 console.log(cS31.name);
 console.log(cS32.age);
+console.log("My Full Name is "+cS31.name+" "+cS32.name)
 
 ////////////////////////////////////////////////////////////////////
